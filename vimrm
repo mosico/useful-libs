@@ -1,0 +1,28 @@
+
+" I like 4 spaces for indenting
+set shiftwidth=4
+
+" I like 4 stops
+set tabstop=4
+
+" Spaces instead of tabs
+"set expandtab
+
+" Always  set auto indenting on
+set autoindent
+
+" select when using the mouse
+set selectmode=mouse
+
+set encoding=utf-8
+set fileencoding=utf-8
+
+set number
+
+" set high light cursor line
+"set cursorline
+"hi CursorLine cterm=NONE ctermbg=7 ctermfg=NONE guibg=purple guifg=NONE
+
+" set comment color
+hi Comment cterm=NONE ctermfg=darkgray
+
