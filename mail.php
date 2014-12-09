@@ -80,6 +80,8 @@ class Mail
 			$headers = "From: $from" . $rn;
 			$headers .= 'Mime-Version: 1.0' . $rn;
 			$headers .= 'Content-Type: multipart/related;boundary=' . $boundary . $rn;
+			// Add high priority
+			//$headers .= "X-Priority: 1 (Highest)\r\n". "X-MSMail-Priority: High";
 			
 			$msg = $rn . '--' . $boundary . $rn;
 			$msg .= 'Content-Type: text/plain; charset=ISO-8859-1' . $rn;
